@@ -6,9 +6,11 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "routify": "routify -c dev"
   },
   "devDependencies": {
+    "@roxi/routify": "^2.18.8",
     "@sveltejs/vite-plugin-svelte": "^1.0.1",
     "svelte": "^3.49.0",
     "vite": "^3.0.7"
