@@ -1,14 +1,13 @@
 {
   "name": "bookmarker",
   "private": true,
-  "version": "0.0.0",
-  "type": "module",
+  "version": "0.0.1",
   "scripts": {
     "dev": "vite & npm run tailwind:watch && kill $!",
     "build": "vite build",
     "preview": "vite preview",
     "routify": "routify -c dev",
-    "tailwind:watch": "tailwind -i ./src/app.css -o ./src/assets/tailwind.css"
+    "tailwind:watch": "tailwind -i ./src/app.css -o ./src/assets/tailwind.css --watch"
   },
   "devDependencies": {
     "@roxi/routify": "^2.18.8",
